@@ -4,10 +4,14 @@ import { CardCCollection } from "./ui-components";
 import { withAuthenticator } from "@aws-amplify/ui-react";
 
 // import { Authenticator } from "@aws-amplify/ui-react";
-function App() {
+function App({ signOut, user }) {
+  console.log(user);
+  const { attributes } = user;
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Hello {attributes.email}</h1>
+        <button onClick={signOut}>Sign out</button>
         <img src={logo} className="App-logo" alt="logo" />
         <CardCCollection />
         <a

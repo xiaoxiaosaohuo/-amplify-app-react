@@ -55,12 +55,5 @@
         ]
       }
     }
-  },
-  "storage": {
-    "s3amplifyappreactstoraged3meyp3g8dea88": {
-      "service": "S3",
-      "providerPlugin": "awscloudformation",
-      "dependsOn": []
-    }
   }
 }
