@@ -23,6 +23,7 @@ export default function CardCCollection(props) {
           type: "collection",
           model: Item,
         }).items;
+  console.log(items);
   return (
     <Collection
       type="grid"
