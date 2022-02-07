@@ -1,9 +1,9 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-amplifyappreact-dev-200506-authRole",
+      "AuthRoleName": "se-us-fe-sa",
       "UnauthRoleArn": "arn:aws:iam::670892823439:role/amplify-amplifyappreact-dev-200506-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::670892823439:role/amplify-amplifyappreact-dev-200506-authRole",
+      "AuthRoleArn": "arn:aws:iam::670892823439:role/se-us-fe-sa",
       "Region": "us-east-1",
       "DeploymentBucketName": "amplify-amplifyappreact-dev-200506-deployment",
       "UnauthRoleName": "amplify-amplifyappreact-dev-200506-unauthRole",
